@@ -48,5 +48,5 @@ div#current_second , div#duration_second , div#current_minute , div#duration_min
 }
 
 video{
-    width: 630px;
+    width: 630px !important;
 }
