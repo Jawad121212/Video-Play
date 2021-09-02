@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.video_wrapper{
+    background-color: #c73e08;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.current_wrapper , .duration_wrapper{
+    display: flex;
+}
+
+.time_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time_wrapper> div{
+    padding: 20px 200px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: arial, 'sans-serif';
+}
+
+.colon{
+    padding: 0px 2px;
+}
+
+input[type="range"]{
+    width: 600px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+div#current_second , div#duration_second , div#current_minute , div#duration_minute{
+    width: 20px;
+    overflow: hidden;
+}
