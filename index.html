@@ -10,7 +10,7 @@
 <body>
 
     <div class="video_wrapper">
-        <video ontimeupdate="ranging(), current_time()" src="https://drive.google.com/uc?export=download&id=1bDTrtCDc42y4h6sItlPCBx1N5JrXS-HQ" controls></video>
+        <video id="vid" ontimeupdate="ranging(), current_time()" src="https://drive.google.com/uc?export=download&id=1bDTrtCDc42y4h6sItlPCBx1N5JrXS-HQ" controls></video>
 
         <input oninput="VidSeek()" id="range" min="0" max="1000" value="0" type="range">
 
