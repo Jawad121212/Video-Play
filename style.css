@@ -46,3 +46,7 @@ div#current_second , div#duration_second , div#current_minute , div#duration_min
     width: 20px;
     overflow: hidden;
 }
+
+video{
+    width: 630px;
+}
